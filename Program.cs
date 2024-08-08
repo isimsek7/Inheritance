@@ -1,13 +1,12 @@
-﻿using Inheritance;
+using System;
+using Inheritance;
 Ogrenci ogrenci1 = new Ogrenci();
-ogrenci1._ad = "Murat";
-ogrenci1._soyAd = "Soyad";
-ogrenci1._ogrenciNo = 1234567789;
-
-Ogretmen ogretmen1 = new Ogretmen();
-ogretmen1._ad = "Kazim";
-ogretmen1._soyAd = "Nazim";
-ogretmen1._maasBilgisi = 27.000;
-
+ogrenci1._ad = "Cem";
+ogrenci1._soyAd = "Dem";
+ogrenci1._ogrenciNo = 1234567890;
 ogrenci1.Ozet();
+Ogretmen ogretmen1 = new Ogretmen();
+ogretmen1._ad = "Selim";
+ogretmen1._soyAd = "Melim";
+ogretmen1._maasBilgisi = 35000;
 ogretmen1.Ozet();
